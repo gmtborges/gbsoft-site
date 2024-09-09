@@ -1,0 +1,32 @@
+baseURL: https://gmtborges.com/
+languageCode: pt-br
+title: G M T Borges
+theme: [PaperMod]
+
+params:
+  title: G M T Borges
+  description: "Consutoria em DevOps e Arquitetura de Soluções"
+  keywords: ["DevOps", "Arquitetura de Soluções", "Consultoria", "Tecnologia"]
+  DateFormat: "02 de janeiro de 2006"
+
+  homeInfoMode:
+    Title: Consutoria independente em DevOps e Arquitetura de Soluções
+# languages:
+#   pt:
+#     languageName: "Português"
+#     weight: 1
+#     taxonomies:
+#       category: categorias
+#       tag: tags
+#       series: series
+#     menu:
+#       main:
+#         - name: Arquivo
+#           url: arquivos
+#           weight: 5
+#         - name: Busca
+#           url: busca/
+#           weight: 10
+#         - name: Tags
+#           url: tags/
+#           weight: 10
