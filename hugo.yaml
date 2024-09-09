@@ -1,32 +1,34 @@
 baseURL: https://gmtborges.com/
-languageCode: pt-br
 title: G M T Borges
 theme: [PaperMod]
+
+menu:
+  main:
+    - identifier: devops
+      name: DevOps
+      url: /consultoria/devops
+      weight: 10
+    - identifier: arquitetura
+      name: Arquitetura
+      url: /consultoria/arquitetura
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
 
 params:
   title: G M T Borges
   description: "Consutoria em DevOps e Arquitetura de Soluções"
   keywords: ["DevOps", "Arquitetura de Soluções", "Consultoria", "Tecnologia"]
   DateFormat: "02 de janeiro de 2006"
+  socialIcons:
+    - name: Linkedin
+      url: "https://linkedin.com/in/gmtborges"
+    - name: Whatsapp
+      url: "https://wa.me/5562996043560"
+    - name: Instagram
+      url: "https://instagram.com/gmtborges"
 
-  homeInfoMode:
-    Title: Consutoria independente em DevOps e Arquitetura de Soluções
-# languages:
-#   pt:
-#     languageName: "Português"
-#     weight: 1
-#     taxonomies:
-#       category: categorias
-#       tag: tags
-#       series: series
-#     menu:
-#       main:
-#         - name: Arquivo
-#           url: arquivos
-#           weight: 5
-#         - name: Busca
-#           url: busca/
-#           weight: 10
-#         - name: Tags
-#           url: tags/
-#           weight: 10
+  homeInfoParams:
+    Title:
