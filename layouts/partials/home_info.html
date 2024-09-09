@@ -5,18 +5,14 @@
   </h1>
   <div class="flex flex-col md:flex-row items-center gap-5 my-16">
     {{ $image := resources.Get "images/profile.jpg" }}
-    <img
-      src="{{ $image.RelPermalink }}"
-      class="rounded-full"
-      width="192"
-      alt="Foto de Gustavo" />
+    <img src="{{ $image.RelPermalink }}" class="rounded-full" width="192" alt="Foto de Gustavo" />
     <p class="text-justify px-3">
       Meu nome é Gustavo, acumulo mais de 13 anos de experiência ajudando
       startups e grandes empresas internacionais a superar desafios em DevOps e
       Arquitetura.<br /><br />
       Durante minha jornada, percebi que empresas de pequeno/médio porte
       encontram dificuldades para encontrar especialistas que compreendam suas
-      necessidades únicas e não cobrem valores exorbitantes.
+      necessidades únicas sem cobrar valores exorbitantes.
     </p>
   </div>
   <h2 class="mx-16 my-20 text-2xl text-center">
@@ -29,38 +25,26 @@
   <ul class="flex flex-col items-center md:flex-row gap-5 mt-10">
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/ibm.png" }}
-      <img
-        src="{{ $image.RelPermalink }}"
-        class="h-52 object-contain"
-        alt="IBM" />
+      <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="IBM" />
       <p class="px-3 h-20">Instrutor, Mentor e Arquiteto de Software.</p>
     </li>
     <li class="flex flex-col items-center w-full gap-3">
       {{ $image := resources.Get "images/nectar.png" }}
-      <img
-        src="{{ $image.RelPermalink }}"
-        class="h-52 object-contain"
-        alt="Nectar CRM" />
+      <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Nectar CRM" />
       <p class="px-3 h-20">
         Grande transformção na infraestrutura e práticas DevOps.
       </p>
     </li>
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/tipspace.png" }}
-      <img
-        src="{{ $image.RelPermalink }}"
-        class="h-52 object-contain"
-        alt="Tipspace" />
+      <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Tipspace" />
       <p class="px-3 h-20">
         Migração de workloads, reduzindo custos em mais de 30%
       </p>
     </li>
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/souagro.png" }}
-      <img
-        src="{{ $image.RelPermalink }}"
-        class="h-52 object-contain"
-        alt="Sou Agro Soluções" />
+      <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Sou Agro Soluções" />
       <p class="px-3 h-20">Aplicação de Observabilidade.</p>
     </li>
   </ul>
