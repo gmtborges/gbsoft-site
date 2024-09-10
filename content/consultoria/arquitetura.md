@@ -14,3 +14,7 @@ e economize em momentos ociosos.
 ### Arquitetura baseada em eventos:
 
 Desenvolva sua aplicação para processar eventos de forma assíncrona e escalável.
+
+### Segurança da rede e dos dados:
+
+Proteja sua empresa com a abordagem de Zero Trust.
