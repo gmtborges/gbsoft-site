@@ -1,8 +1,14 @@
+dev:
+	make -j 3 css-watch local-server open-browser
+
 css-watch:
 	cd themes/PaperMod && npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch
 
-hugo-dev:
+local-server:
 	hugo server -D
 
-dev:
-	@make -j2 css-watch hugo-dev
+open-browser:
+	open http://localhost:1313
+
+css:
+	cd themes/PaperMod && npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify
