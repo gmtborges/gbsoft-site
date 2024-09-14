@@ -6,19 +6,13 @@
   <div class="flex flex-col md:flex-row items-center gap-5 my-16">
     {{ $image := resources.Get "images/profile.jpg" }}
     <img src="{{ $image.RelPermalink }}" class="rounded-full" width="192" alt="Foto de Gustavo" />
-    <p class="text-justify px-3">
-      Meu nome é Gustavo, tenho mais de 13 anos de experiência ajudando
-      startups e grandes empresas internacionais a superar desafios em DevOps e
-      Arquitetura.<br /><br />
-      Durante minha jornada, percebi que empresas de pequeno/médio porte
-      encontram dificuldades para encontrar especialistas que compreendam suas
-      necessidades únicas sem cobrar valores exorbitantes.
-    </p>
+    <h2 class="text-xl">
+      Ajudo pequenas e médias empresas a escalarem seu negócio, <strong>reduzir custos</strong> de
+      tecnologia e <strong>aumentar a confiança</strong>. de seus clientes.<br /><br />
+      Com <strong>preços acessíveis</strong>, abordagem pragmática sem indicações de ferramentas e
+      focado em <strong>resultados imediátos</strong>.
+    </h2>
   </div>
-  <h2 class="mx-16 my-20 text-2xl text-center">
-    Como consultor independente, eu ofereço serviços que são acessíveis e
-    focados em resultados reais.
-  </h2>
 </section>
 <section class="flex flex-col items-center max-w-7xl m-auto">
   <h2 class="text-2xl font-bold">Empresas que trabalhei</h2>
@@ -50,6 +44,6 @@
   </ul>
 </section>
 <div class="mt-20 max-w-7xl m-auto">
-  <footer>{{ partial "social_icons.html" site.Params.socialIcons }}</footer>
+  <footer class="mr-2">{{ partial "social_icons.html" site.Params.socialIcons }}</footer>
 </div>
 {{- end -}}
