@@ -12,15 +12,15 @@ menu:
       name: Arquitetura
       url: /consultoria/arquitetura
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
 
 params:
-  title: G M T Borges
-  description: "Consutoria em DevOps e Arquitetura de Soluções"
-  keywords: ["DevOps", "Arquitetura de Soluções", "Consultoria", "Tecnologia"]
+  title: Gustavo Martins T Borges
+  description: "Especialista em práticas DevOps e Arquitetura de Soluções"
+  keywords: ["DevOps", "Arquitetura de Soluções", "Consultoria", "Cibersegurança", "Cloud", "SRE"]
   DateFormat: "02 de janeiro de 2006"
   socialIcons:
     - name: Linkedin

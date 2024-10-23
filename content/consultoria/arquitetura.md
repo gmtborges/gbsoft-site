@@ -1,5 +1,5 @@
 ---
-title: "Consultoria de Arquitetura de Soluções"
+title: "Consultoria em Arquitetura de Soluções"
 ---
 
 ### Arquitetura para nuvem
@@ -18,3 +18,7 @@ Desenvolva sua aplicação para processar eventos de forma assíncrona e escalá
 ### Segurança da rede e dos dados
 
 Proteja sua empresa com a abordagem de Zero Trust.
+
+### Prevenção de ataques e controle de vulnerabilidades
+
+Seja proativo na prevenção de ataques cibernéticos encontrando e resolvendo vulnerabilidades críticas.

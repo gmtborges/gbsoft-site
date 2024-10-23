@@ -1,5 +1,5 @@
 ---
-title: "Consultoria de DevOps"
+title: "Consultoria em práticas DevOps"
 summary: "devops"
 ---
 
