@@ -18,3 +18,7 @@ Antecipe problemas antes que eles impactem negativamente seus clientes.
 ### Infraestrutura como código
 
 Automatize a configuração e melhore a confiabilidade do seu ambiente.
+
+### Docker e Kubernetes
+
+Migre para containers e escale suas aplicações com facilidade.
