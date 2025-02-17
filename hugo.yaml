@@ -20,7 +20,15 @@ menu:
 params:
   title: Gustavo Martins T Borges
   description: "Especialista em práticas DevOps e Arquitetura de Soluções"
-  keywords: ["DevOps", "Arquitetura de Soluções", "Consultoria", "Cibersegurança", "Cloud", "SRE"]
+  keywords:
+    [
+      "DevOps",
+      "Arquitetura de Soluções",
+      "Consultoria",
+      "Cibersegurança",
+      "Cloud",
+      "SRE",
+    ]
   DateFormat: "02 de janeiro de 2006"
   socialIcons:
     - name: Linkedin
