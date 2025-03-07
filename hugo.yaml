@@ -19,11 +19,12 @@ params:
   keywords:
     [
       "DevOps",
-      "Arquitetura de Soluções",
+      "DevOps Engineer",
+      "Observability",
       "Consultoria",
-      "Cibersegurança",
       "Cloud",
       "SRE",
+      "Site Reliability Engineer",
     ]
   DateFormat: "02 de janeiro de 2006"
   socialIcons:
