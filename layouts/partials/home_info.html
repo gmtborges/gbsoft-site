@@ -1,49 +1,48 @@
 {{- with site.Params.homeInfoParams }}
 <section class="max-w-4xl m-auto mt-10">
   <h1 class="text-5xl font-bold text-center p-3">
-    SRE / DevOps Engineer
+    SRE / DevOps / Engenheiro de Software.
   </h1>
   <div class="flex flex-col md:flex-row items-center gap-5 my-12">
     {{ $image := resources.Get "images/profile.jpg" }}
     <img src="{{ $image.RelPermalink }}" class="rounded-full" width="192" alt="Foto de Gustavo" />
     <h2 class="p-4 text-xl" style="text-align: justify;">
-      I help companies improving their software lifecycle with DevOps practices, reduce costs, and
-      configure observability to ensure
-      continuous improvement. <br /> <br />14 years of experience working with programming, cloud infrastructure, and
-      monitoring
-      production environments.
+      Graduado em Egenharia de Software pela UFG.
+      Ajudo empresas a melhorar o ciclo de vida de software com práticas DevOps, reduzir custos e configurar
+      observabilidade para garantir melhoria contínua. <br /> <br />14 anos de experiência trabalhando com programação,
+      infraestrutura em nuvem e gerenciando ambientes de produção.
   </div>
   <div class="flex flex-col px-3 items-center mb-12">
-    <a class="underline text-blue-600" href="https://calendly.com/gmtborges/30min" target="_blank">Schedule a first
-      meeting to evalute your business.</a>
+    <a class="underline text-blue-600" href="https://calendly.com/gmtborges/30min" target="_blank">Agende uma primeira
+      reunião para avaliar o seu negócio.</a>
   </div>
 </section>
 <section class=" flex flex-col items-center max-w-7xl m-auto">
-  <h2 class="text-2xl font-bold">Companies I worked for</h2>
+  <h2 class="text-2xl font-bold">Empresas que trabalhei</h2>
   <ul class="flex flex-col items-center md:flex-row gap-5 mt-10">
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/ibm.png" }}
       <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="IBM" />
-      <p class="px-3 h-20">Senior Software Engineer and Solutions Architect</p>
+      <p class="px-3 h-20">Engenheiro de Software Sênior e Arquiteto de Soluções</p>
     </li>
     <li class="flex flex-col items-center w-full gap-3">
       {{ $image := resources.Get "images/nectar.png" }}
       <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Nectar CRM" />
       <p class="px-3 h-20">
-        Great transformation in infrastructure and DevOps practices.
+        Grande transformação na infraestrutura, monitoramento e práticas de DevOps.
       </p>
     </li>
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/tipspace.png" }}
       <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Tipspace" />
       <p class="px-3 h-20">
-        Observability and workload migration to AWS, reducing costs by more than 30%
+        Observabilidade e migração de banco de dados e aplicações para a AWS, reduzindo custos em mais de 30%
       </p>
     </li>
     <li class="flex flex-col items-center w-full">
       {{ $image := resources.Get "images/souagro.png" }}
       <img src="{{ $image.RelPermalink }}" class="h-52 object-contain" alt="Sou Agro Soluções" />
-      <p class="px-3 h-20">Observability and migration to AWS.</p>
+      <p class="px-3 h-20">Observabilidade, IaC, CI/CD e migração para a AWS.</p>
     </li>
   </ul>
 </section>

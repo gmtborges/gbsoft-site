@@ -5,8 +5,8 @@ theme: [PaperMod]
 menu:
   main:
     - identifier: devops
-      name: Consulting
-      url: /consulting/sre-devops
+      name: Consultoria
+      url: /consultoria/sre-devops
       weight: 10
     # - identifier: tags
     #   name: Tags
@@ -15,12 +15,15 @@ menu:
 
 params:
   title: Gustavo Martins T Borges
-  description: "SRE / DevOps Engineer"
+  description: "SRE / DevOps / Engenheiro de Software"
   keywords:
     [
       "DevOps",
       "DevOps Engineer",
+      "Engenheiro DevOps",
+      "Engenharia de Software",
       "Observability",
+      "Observabilidade",
       "Consultoria",
       "Cloud",
       "SRE",
