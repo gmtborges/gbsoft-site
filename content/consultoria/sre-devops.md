@@ -5,49 +5,49 @@ summary: "consulting"
 
 ## CI/CD
 
-Automate your deployments and ensure fast and secure deliveries with automated
-tests and static analysis.
+Automatize suas implantações e garanta entregas rápidas e seguras com testes
+automatizados e mais segurança e menos falha humana.
 
-## Structured logs and tracing
+## Logs estruturados e tracing
 
-Simplify troubleshooting and speed up bug fixes.
+Simplifique a solução de problemas e acelere a correção de bugs.
 
-## Metrics
+## Métricas
 
-Improve your system's performance with metrics aligned to what is crucial for
-your users.
+Melhore o desempenho do seu sistema com métricas alinhadas ao que é crucial para
+seus usuários.
 
-## Alerts
+## Alertas
 
-Anticipate problems before they negatively impact your customers.
+Antecipe problemas antes que impactem negativamente seus clientes.
 
-## Infrastructure as code
+## Infraestrutura como código
 
-Automate configuration and improve the reliability of your environment.
+Automatize a configuração e melhore a confiabilidade do seu ambiente.
 
-## Docker and Kubernetes
+## Docker e Kubernetes
 
-Migrate to containers and easily scale your applications.
+Migre para contêineres e dimensione facilmente suas aplicações.
 
-## Cloud architecture
+## Arquitetura em nuvem
 
-Ensure that your application is securely configured for containers.
+Garanta que sua aplicação esteja configurada de forma segura para contêineres.
 
-## Auto Scaling
+## Escalonamento automático
 
-Program your infrastructure to automatically scale according to demand and save
-money on idle times.
+Programe sua infraestrutura para escalar automaticamente de acordo com a demanda
+e economize dinheiro nos períodos de inatividade.
 
-## Event-driven architecture
+## Arquitetura orientada a eventos
 
-Develop your application to process events asynchronously and get prepared to
-scale.
+Desenvolva sua aplicação para processar eventos de forma assíncrona e esteja
+preparado para escalar.
 
-## Network and data security
+## Segurança de rede e dados
 
-Protect your company with a Zero Trust approach.
+Proteja sua empresa com uma abordagem de Zero Trust.
 
-## Prevention of attacks and vulnerabilities
+## Prevenção de ataques e vulnerabilidades
 
-Be proactive in preventing cyber attacks by finding and resolving critical
-vulnerabilities.
+Seja proativo na prevenção de ataques cibernéticos encontrando e resolvendo
+vulnerabilidades críticas.
