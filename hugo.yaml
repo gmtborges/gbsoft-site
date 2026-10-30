@@ -4,21 +4,46 @@ theme: [PaperMod]
 module:
   hugoVersion:
     min: "0.169.0"
-menu:
-  main:
-    - identifier: devops
-      name: Consultoria
-      url: /consultoria/sre-devops
-      weight: 10
-      # - identifier: tags
-      #   name: Tags
-      #   url: /tags/
-      #   weight: 20
+defaultContentLanguage: pt-br
+defaultContentLanguageInSubdir: false
+languages:
+  pt-br:
+    locale: pt-BR
+    label: Português
+    weight: 1
+    contentDir: content/pt-br
+    menus:
+      main:
+        - identifier: devops
+          name: Consultoria
+          pageRef: /consultoria/sre-devops
+          weight: 10
+          # - identifier: tags
+          #   name: Tags
+          #   url: /tags/
+          #   weight: 20
+    params:
+      description: "DevOps / SRE"
+      keywords: ["DevOps", "DevOps Engineer", "Engenheiro DevOps", "Engenharia de Software", "Observability", "Observabilidade", "Consultoria", "Cloud", "SRE", "Site Reliability Engineer"]
+      DateFormat: "02 de janeiro de 2006"
+  en:
+    locale: en
+    label: English
+    weight: 2
+    contentDir: content/en
+    menus:
+      main:
+        - identifier: devops
+          name: Consulting
+          pageRef: /consulting/sre-devops
+          weight: 10
+    params:
+      description: "DevOps / SRE"
+      keywords: ["DevOps", "DevOps Engineer", "Software Engineering", "Observability", "Consulting", "Cloud", "SRE", "Site Reliability Engineer"]
+      DateFormat: "January 2, 2006"
 params:
   title: Gustavo Martins T Borges
-  description: "DevOps / SRE"
-  keywords: ["DevOps", "DevOps Engineer", "Engenheiro DevOps", "Engenharia de Software", "Observability", "Observabilidade", "Consultoria", "Cloud", "SRE", "Site Reliability Engineer"]
-  DateFormat: "02 de janeiro de 2006"
+  displayFullLangName: true
   socialIcons:
     - name: Linkedin
       url: "https://linkedin.com/in/gmtborges"
