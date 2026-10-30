@@ -25,3 +25,4 @@ hugo.linux
 .direnv/
 .DS_Store
 node_modules/
+.worktree/
