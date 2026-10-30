@@ -1,46 +1,28 @@
 baseURL: https://gbsoft.net/
 title: GBSoft.NET
 theme: [PaperMod]
-
 module:
   hugoVersion:
     min: "0.169.0"
-
 menu:
   main:
     - identifier: devops
       name: Consultoria
       url: /consultoria/sre-devops
       weight: 10
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags/
-    #   weight: 20
-
+      # - identifier: tags
+      #   name: Tags
+      #   url: /tags/
+      #   weight: 20
 params:
   title: Gustavo Martins T Borges
-  description: "SRE / DevOps / Engenheiro de Software"
-  keywords:
-    [
-      "DevOps",
-      "DevOps Engineer",
-      "Engenheiro DevOps",
-      "Engenharia de Software",
-      "Observability",
-      "Observabilidade",
-      "Consultoria",
-      "Cloud",
-      "SRE",
-      "Site Reliability Engineer",
-    ]
+  description: "DevOps / SRE"
+  keywords: ["DevOps", "DevOps Engineer", "Engenheiro DevOps", "Engenharia de Software", "Observability", "Observabilidade", "Consultoria", "Cloud", "SRE", "Site Reliability Engineer"]
   DateFormat: "02 de janeiro de 2006"
   socialIcons:
     - name: Linkedin
       url: "https://linkedin.com/in/gmtborges"
     - name: Whatsapp
       url: "https://wa.me/5562996043560"
-    - name: Instagram
-      url: "https://instagram.com/gmtborges"
-
   homeInfoParams:
     Title:
