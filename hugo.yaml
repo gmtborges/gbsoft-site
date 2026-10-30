@@ -14,18 +14,15 @@ languages:
     contentDir: content/pt-br
     menus:
       main:
-        - identifier: devops
+        - identifier: consulting
           name: Consultoria
+          title: Consultoria
           pageRef: /consultoria/sre-devops
           weight: 10
-          # - identifier: tags
-          #   name: Tags
-          #   url: /tags/
-          #   weight: 20
     params:
-      description: "DevOps / SRE"
       keywords: ["DevOps", "DevOps Engineer", "Engenheiro DevOps", "Engenharia de Software", "Observability", "Observabilidade", "Consultoria", "Cloud", "SRE", "Site Reliability Engineer"]
       DateFormat: "02 de janeiro de 2006"
+      homeCtaUrl: "https://wa.me/5562996043560"
   en:
     locale: en
     label: English
@@ -33,16 +30,18 @@ languages:
     contentDir: content/en
     menus:
       main:
-        - identifier: devops
+        - identifier: consulting
           name: Consulting
+          title: Consulting
           pageRef: /consulting/sre-devops
           weight: 10
     params:
-      description: "DevOps / SRE"
       keywords: ["DevOps", "DevOps Engineer", "Software Engineering", "Observability", "Consulting", "Cloud", "SRE", "Site Reliability Engineer"]
       DateFormat: "January 2, 2006"
+      homeCtaUrl: "https://linkedin.com/in/gmtborges"
 params:
   title: Gustavo Martins T Borges
+  description: "DevOps / SRE"
   displayFullLangName: true
   socialIcons:
     - name: Linkedin
