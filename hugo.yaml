@@ -2,6 +2,10 @@ baseURL: https://gbsoft.net/
 title: GBSoft.NET
 theme: [PaperMod]
 
+module:
+  hugoVersion:
+    min: "0.169.0"
+
 menu:
   main:
     - identifier: devops
